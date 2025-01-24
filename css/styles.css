@@ -324,6 +324,7 @@ section.sobre-mim .box .descri-perfil picture img{
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
 }
 
 .sobre-mim .box .descri-txt .btn:hover{
@@ -1020,8 +1021,6 @@ section#formulario #forms .form-group .form-control::placeholder {
    }
    section.portfolio .portfolio-gallery .portfolio-box .container img {
       display: block;
-      border: 1px solid green;
-      /* width: 80%; */
       overflow: hidden;
    }
    .big-circle {

@@ -83,12 +83,12 @@ div.logo{
    transform: rotate(90deg);
    z-index: 999;
 }
-.socials a {
+.socials a.vertical-bar {
    font-size: 1.8rem;
    color: #fff;
    text-decoration: none;
 }
-.socials a::after{
+.socials a.vertical-bar::after{
 	content: "";
 	width: 70px;
 	height: 1px;
